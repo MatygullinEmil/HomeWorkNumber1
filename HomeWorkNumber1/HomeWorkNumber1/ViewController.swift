@@ -9,7 +9,7 @@ import UIKit
 
 final class ViewController: UIViewController {
     
-    var count = 0 {
+    private var count = 0 {
         didSet {
             if count == 3 { count = 0}
         }
