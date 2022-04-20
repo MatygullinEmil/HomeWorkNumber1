@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     var count = 0 {
         didSet {
@@ -15,14 +15,12 @@ class ViewController: UIViewController {
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func buttonPressed() {
-    
         switch count {
         case 0:
             view.backgroundColor = .red
@@ -34,9 +32,5 @@ class ViewController: UIViewController {
             break
         }
         count += 1
-        
         }
-        
     }
-    
-
