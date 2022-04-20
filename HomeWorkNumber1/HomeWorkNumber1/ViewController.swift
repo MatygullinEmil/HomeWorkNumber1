@@ -15,11 +15,11 @@ final class ViewController: UIViewController {
         }
     }
     
+    // MARK: - Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
     @IBAction func buttonPressed() {
         switch count {
         case 0:
