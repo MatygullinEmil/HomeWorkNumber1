@@ -59,7 +59,7 @@ import AVFoundation
     isRealLightOn.toggle()
     updateRealLightState()
 
-    let title: String = isRealLightOn ? "Torch": "Torch on"
+    let title: String = isRealLightOn ? "Torch off": "Torch on"
     button.setTitle(title, for: .normal)
     }
     
