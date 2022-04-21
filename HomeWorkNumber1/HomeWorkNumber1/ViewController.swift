@@ -27,8 +27,6 @@ final class ViewController: UIViewController {
         return false
     }
     
-    // MARK: - Methods
-    
     /// Create Button for control the Device Torch
     private lazy var button: UIButton = {
         let button = UIButton(type: .system)
@@ -44,9 +42,11 @@ final class ViewController: UIViewController {
         return button
     }()
     
+    // MARK: - Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(button)
+        view.addSubview(button)
         buttonPressed()
         
     }
