@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-   final class ViewController: UIViewController {
+    final class ViewController: UIViewController {
        
     // MARK: - Properties
     
